@@ -1,9 +1,11 @@
 package graph;
 
-class Edge {
-    int from, to, weight;
+public class Edge {
+    public int from;
+    public int to;
+    public int weight;
 
-    Edge(int from, int to, int weight) {
+    public Edge(int from, int to, int weight) {
         this.from = from;
         this.to = to;
         this.weight = weight;
